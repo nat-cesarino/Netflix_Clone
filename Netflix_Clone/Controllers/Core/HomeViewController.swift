@@ -42,7 +42,7 @@ class HomeViewController: UIViewController {
         
         configureNavBar()
         
-        headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 500))
+        headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 550))
         homeFeedTable.tableHeaderView = headerView
         
         configureHeroHeaderView()
